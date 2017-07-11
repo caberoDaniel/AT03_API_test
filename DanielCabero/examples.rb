@@ -8,7 +8,7 @@ puts "Banana :#{Bananas}"
 # exercises 2
 # this is the error the variable no defined or initial
 # undefined local variable or method `stroberry' for main:Object (NameError) Banana :30
-#     stroberry
+#      stroberry
 # the variable is not defined
 
 #I will count apple fruit.
