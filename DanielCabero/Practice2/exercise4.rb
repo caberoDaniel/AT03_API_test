@@ -4,7 +4,7 @@ class Exercise4
   @@age
   #method initialize
   def initialize(name, age)
-    @name = name
+    name = name
     @@age = age
   end
 
