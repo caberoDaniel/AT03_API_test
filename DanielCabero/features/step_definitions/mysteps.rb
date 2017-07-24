@@ -9,7 +9,7 @@ end
 
 # the action method is sum two numbers.
 When(/^sum the two numbers\.$/) do
-   @result=@num1+@num2
+  puts @result=@num1+@num2
 end
 
 # the result of the Action method.
@@ -18,9 +18,14 @@ Then(/^the result should be display\.$/) do
 end
 # the action method is rest two numbers
 When(/^rest the two numbers\.$/) do
- @result=@num1-@num2
+puts @result=@num1-@num2
 end
 
 When(/^times the two numbers\.$/) do
-  @result = @num2*@num1
+  puts@result = @num2*@num1
+end
+
+When(/^divide the two numbers\.$/) do
+  @result=@num1/@num2
+  puts "the residuo is #{@num1 % @num2}"
 end
